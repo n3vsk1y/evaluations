@@ -29,7 +29,7 @@ def logger_settings():
         sys.stdout,
         format="<italic><cyan>{time:DD-MM HH:mm:ss}</cyan></italic> | "
             "<level>{level: <8}</level> | "
-            "<cyan>{extra[location]: <50}</cyan> | "
+            "<cyan>{extra[location]: <57}</cyan> | "
             "<level>{message}</level>",
         filter=logger_formater
     )
